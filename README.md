@@ -35,13 +35,15 @@ Local Machine → Docker Image → Docker Hub → AWS EC2 → Browser
 ---
 
 ## 📂 Project Structure
-docker-aws-nginx-deployment/
-├── Dockerfile        # Builds the custom Nginx Docker image
-├── nginx.conf        # Custom Nginx configuration
-├── html/
-│   └── index.html    # Static HTML content served by Nginx
-└── README.md         # Project documentation
 
+```text
+docker-aws-nginx-deployment/
+├── Dockerfile      # Builds the custom Nginx Docker image
+├── nginx.conf      # Custom Nginx configuration
+├── html/
+│   └── index.html  # Static HTML content served by Nginx
+└── README.md       # Project documentation
+```
 ---
 
 ## 🐳 Docker Hub Image
